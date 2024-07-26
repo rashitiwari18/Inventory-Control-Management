@@ -9,3 +9,10 @@ s_mode_of_payment char(10));
 
 
 ---INSERTING INTO SUPPLIER MASTER TABLE---
+('S001','Ram Das','B-1,Akash colony','99725842','15000','cash');
+INSERT INTO SUPPLIER values 
+('S002','Jaspreet Singh','Road no.-10,Azad nagar','7896788564','67000','NEFT')
+INSERT INTO SUPPLIER values 
+('S003','Anil numar','BH Area,Sonari','7884536910','25000','NEFT');
+ INSERT INTO SUPPLIER values 
+('SOO4','Mohit Sharma','Road no.-1,Teacher colony','9782376497','35000','Cheaque');
