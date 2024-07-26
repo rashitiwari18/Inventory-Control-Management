@@ -1,3 +1,4 @@
+---CREATING SUPPLIER MASTER TABLE---
 CREATE TABLE SUPPLIER
 (s_id varchar2(10) primary key not null,
 s_name char(20),
