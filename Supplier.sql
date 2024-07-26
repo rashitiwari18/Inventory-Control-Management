@@ -6,3 +6,6 @@ s_add char(50),
 s_number int(10),
 s_payment int(15),
 s_mode_of_payment char(10));
+
+
+---INSERTING INTO SUPPLIER MASTER TABLE---
