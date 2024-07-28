@@ -17,3 +17,7 @@ INSERT INTO SUPPLIER values
 ('S003','Anil numar','BH Area,Sonari','7884536910','25000','NEFT');
  INSERT INTO SUPPLIER values 
 ('SOO4','Mohit Sharma','Road no.-1,Teacher colony','9782376497','35000','Cheaque');
+
+
+
+SELECT * FROM SUPPLIER;
