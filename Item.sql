@@ -20,3 +20,9 @@ INSERT INTO ITEM
  ('I004','Cement','single sack','1000');
  INSERT INTO ITEM VALUES
  ('I005','Rods','8mm of 0.395kg','3500');
+
+
+
+
+
+ SELECT * FROM ITEM;
