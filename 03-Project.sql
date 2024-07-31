@@ -11,3 +11,15 @@ CREATE TABLE PROJECT
 
 
 SELECT * FROM PROJECT;
+
+
+
+ INSERT INTO PROJECT
+ VALUES
+ ('P001','J.V. Hospital','Mr.Rajesh Mehta','Road no.-3,Shastri nagar','Pune');
+ INSERT INTO PROJECT VALUES
+('P002','Cinema centre','Abhishek Kumar','Old book store,Sakchi','Jamshedpur');
+INSERT INTO PROJECT VALUES
+('P003','Inventory sys','Abhishek Kumar','C-4/ Mirabai road','Chandil');
+INSERT INTO PROJECT VALUES
+('P004','Ashiana','Md. Rizwan','Road no. 1,Teacher colony','Jamshedpur');
