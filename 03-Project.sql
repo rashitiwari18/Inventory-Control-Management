@@ -5,3 +5,9 @@ CREATE TABLE PROJECT
  p_manager char(15),
  p_location char(50),
  p_city char(15));
+
+
+
+
+
+SELECT * FROM PROJECT;
