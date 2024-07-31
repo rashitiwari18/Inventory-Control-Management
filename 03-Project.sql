@@ -23,3 +23,5 @@ INSERT INTO PROJECT VALUES
 ('P003','Inventory sys','Abhishek Kumar','C-4/ Mirabai road','Chandil');
 INSERT INTO PROJECT VALUES
 ('P004','Ashiana','Md. Rizwan','Road no. 1,Teacher colony','Jamshedpur');
+
+   --Sorting Ascending--
