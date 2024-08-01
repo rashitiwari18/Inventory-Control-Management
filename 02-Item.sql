@@ -9,8 +9,7 @@ i_price int(10));
 
 
 
-INSERT INTO ITEM
- VALUES
+INSERT INTO ITEM VALUES
  ('I001','Sand','single trip','3200');
  INSERT INTO ITEM VALUES
  ('I002','Bricks','','4000');
