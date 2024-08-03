@@ -1,1 +1,2 @@
                                                           ---CREATING PURCHASE TABLE---
+                                                            --PURCHASE ORDER DETAIL--
