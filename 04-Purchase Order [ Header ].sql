@@ -17,7 +17,6 @@ TPH_po_update_date date default sysdate);
 
 
 
-
                            --INSERTING METHOD 2:--
 INSERT INTO T_PO_HDR
 (TPH_po_no ,
