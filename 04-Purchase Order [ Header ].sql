@@ -18,3 +18,16 @@ TPH_po_update_date date default sysdate);
 
 
 
+                           --INSERTING METHOD 2:--
+INSERT INTO T_PO_HDR
+(TPH_po_no ,
+TPH_po_date ,
+TPH_po_s_id ,
+TPH_po_prj_code ,
+TPH_po_mat_req_no ,
+TPH_po_mat_re_date,
+TPH_po_approved_by,
+TPH_po_approved_DATE
+)
+values
+('&pono',&dt,'&suppid','&projcd','&matreq',&matdate,'&TPH_po_approved_by',&TPH_po_approved_DATE);
