@@ -13,3 +13,17 @@ TPD_po_ent_by varchar2(30) default user,
 TPD_po_ent_date date default sysdate,
 TPD_po_update_by varchar2(30) default user,
 TPD_po_update_date date default sysdate);
+
+
+
+
+
+INSERT INTO T_PO_DTL 
+(TPD_po_no ,
+TPD_po_date,
+TPD_po_item_code ,
+TPD_po_unit,
+TPD_po_unit_price )
+VALUES
+('&PONO',&PODT,'&ITEM_CD','&UNIT',&UNIT_PRICE);
+SELECT * FROM T_PO_DTL;
