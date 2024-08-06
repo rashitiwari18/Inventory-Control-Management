@@ -1,1 +1,8 @@
                       ---First Join---
+
+SELECT POH.TPH_PO_PRJ_CODE,P.P_NAME,S.S_NAME,POD.TPD_po_item_code,I.I_NAME,POD.TPD_po_unit,POD.TPD_po_unit_price
+FROM PROJECT P,SUPPLIER S,ITEM I,T_PO_HDR POH,T_PO_DTL POD
+WHERE POD.TPD_po_no=POH.TPH_po_no
+AND   POH.TPH_po_s_id=S.S_ID
+AND   POH.TPH_PO_PRJ_CODE=P.P_CODE
+AND   POD.TPD_po_item_code=I.I_CODE;
