@@ -1,1 +1,1 @@
-
+                                          ---MATERIAL REQUISITION RECEIPT (MRR)---
