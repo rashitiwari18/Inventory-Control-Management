@@ -13,3 +13,16 @@ TMRRH_ENT_BY varchar2(30) default user,
 TMRRH_ENT_DATE date default sysdate,
 TMRRH_UPDATE_BY varchar2(30) default user,
 TMRRH_UPDATE_DATE date default sysdate);
+
+
+
+
+
+INSERT INTO T_MRR_HDR
+(TMRRH_NO ,
+TMRRH_SUPPLIER_CODE ,
+TMRRH_PRJ_CODE ,
+TMRRH_DELV_NO ,
+TMRRH_DELV_DATE)
+VALUES
+('&TMRRH_NO','&TMRRH_S_ID','&TMRRH_PRJ_CODE','&TMRRH_DELV_NO',&TMRRH_DATE);
