@@ -4,3 +4,7 @@ WHERE TMWD.TMW_PO_NO=TMWH.TMW_NO
 AND TMWD.TMW_ITEM_CODE=I.I_CODE
 AND TMW_PROJ_CODE=P.P_CODE;
 AND TPOD.TPD_po_no= T_PO_HDR.TPH_po_no;
+
+
+
+                         ---Displaying Result According to the Condition---
