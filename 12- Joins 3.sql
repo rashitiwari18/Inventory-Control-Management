@@ -8,3 +8,6 @@ AND TPOD.TPD_po_no= T_PO_HDR.TPH_po_no;
 
 
                          ---Displaying Result According to the Condition---
+
+SELECT EMPLOYEE_ID,FIRST_NAME,SALARY FROM EMPLOYEES
+WHERE SALARY > (SELECT SALARY FROM EMPLOYEES  WHERE FIRST_NAME='Adam');
