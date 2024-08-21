@@ -1,1 +1,1 @@
-
+                                                    --QA/QC DETAIL--
