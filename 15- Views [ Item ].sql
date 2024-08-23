@@ -4,4 +4,4 @@
  AS
  SELECT * FROM ITEM;
  
- SELECT * FROM ITEM_VW;
+ SELECT * FROM ITEM_VW;                // granted user can update any row  //
