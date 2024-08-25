@@ -14,7 +14,6 @@ TMRRD_UPDATE_DATE date default sysdate);
 
 
 
-
 INSERT INTO T_MRR_DTL
 (TMRRD_NO ,
 TMRRD_DATE ,
