@@ -16,8 +16,6 @@ TMRRH_UPDATE_DATE date default sysdate);
 
 
 
-
-
 INSERT INTO T_MRR_HDR
 (TMRRH_NO ,
 TMRRH_SUPPLIER_CODE ,
