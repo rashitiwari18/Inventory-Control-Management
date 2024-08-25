@@ -8,5 +8,5 @@
 
 
 
-                                          --2ND ITEM VIEW--
+                                                    --2ND ITEM VIEW--
 CREATE OR REPLACE VIEW ITEM_VW2
