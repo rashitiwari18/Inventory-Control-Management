@@ -15,4 +15,4 @@ CREATE OR REPLACE VIEW ITEM_VW2
  WHERE I_PRICE<3600
  WITH CHECK OPTION;            
 
- SELECT* FROM PROJECT;
+ SELECT* FROM PROJECT;                    // update only granted row  //   
