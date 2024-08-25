@@ -10,3 +10,7 @@
 
                                                     --2ND ITEM VIEW--
 CREATE OR REPLACE VIEW ITEM_VW2
+ AS
+ SELECT * FROM ITEM
+ WHERE I_PRICE<3600
+ WITH CHECK OPTION;            
