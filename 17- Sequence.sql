@@ -1,1 +1,2 @@
                                          --CURRENT_VAL--
+                                           ---NEXT_VAL--
