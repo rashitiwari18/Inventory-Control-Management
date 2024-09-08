@@ -3,3 +3,5 @@
                                   --We have created an user named 'RASHI'--
 
  SELECT * FROM RASHI.WORKERS;
+
+                      ---can be done after grant---
