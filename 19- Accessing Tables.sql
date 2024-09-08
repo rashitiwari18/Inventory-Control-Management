@@ -1,1 +1,2 @@
                                      -----ACCESSING TABLES FROM ANOTHER USER---
+---Create another user and accessing their tables---
