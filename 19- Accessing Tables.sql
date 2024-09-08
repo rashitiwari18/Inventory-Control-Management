@@ -5,3 +5,7 @@
  SELECT * FROM RASHI.WORKERS;
 
                       ---can be done after grant---
+
+INSERT INTO T_WORKERS
+ VALUES
+ (WORKERS_SEQ.NEXTVAL,'&ID','&NAME',&AGE,'&ADDRESS',&PH_NO,&SALARY);
