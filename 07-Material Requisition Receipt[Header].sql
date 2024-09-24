@@ -12,7 +12,7 @@ TMRRH_DELV_DATE date,
 TMRRH_ENT_BY varchar2(30) default user,
 TMRRH_ENT_DATE date default sysdate,
 TMRRH_UPDATE_BY varchar2(30) default user,
-TMRRH_UPDATE_DATE date default sysdate); 
+TMRRH_UPDATE_DATE date default sysdate);  
 
 
 
