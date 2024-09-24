@@ -1,4 +1,4 @@
-                                          ---MATERIAL REQUISITION RECEIPT (MRR)---
+                                           ---MATERIAL REQUISITION RECEIPT (MRR)---
                                                    --MRR HEADER--
 
 
