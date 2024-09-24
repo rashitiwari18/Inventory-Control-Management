@@ -15,7 +15,7 @@ TPH_po_ent_date date default sysdate,
 TPH_po_update_by varchar2(30) default user,
 TPH_po_update_date date default sysdate);
 
-
+ 
 
                            --INSERTING METHOD 2:--
 INSERT INTO T_PO_HDR
