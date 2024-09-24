@@ -6,7 +6,7 @@ CREATE TABLE T_MRR_HDR
 (TMRRH_NO varchar2(20) constraint TMRRH_NO primary key,
 TMRRH_DATE date default sysdate,
 TMRRH_SUPPLIER_CODE varchar2(15) constraint TMRRH_SUPPLIER_CODE references SUPPLIER(s_id) not null,
-TMRRH_PRJ_CODE constraint TMRRH_PRJ_CODE references PROJECT(p_code) not null,
+TMRRH_PRJ_CODE constraint TMRRH_PRJ_CODE references PROJECT(p_code) not null, 
 TMRRH_DELV_NO varchar2(20),
 TMRRH_DELV_DATE date,
 TMRRH_ENT_BY varchar2(30) default user,
