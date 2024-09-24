@@ -3,7 +3,7 @@
 
 CREATE TABLE T_PO_HDR
 (TPH_po_no varchar2(10) constraint poh_no primary key,
-TPH_po_date date default sysdate,
+TPH_po_date date default sysdate, 
 TPH_po_s_id varchar(15) constraint poh_s_id_fk references supplier(s_id),
 TPH_po_prj_code varchar2(10) constraint poh_p_code_fk references project(p_code),
 TPH_po_mat_req_no varchar2(20),
