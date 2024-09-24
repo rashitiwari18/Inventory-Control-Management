@@ -1,4 +1,4 @@
-                                                     ---CREATING PURCHASE TABLE---
+                                                       ---CREATING PURCHASE TABLE---
                                                     --PURCHASE ORDER HEADER--
 
 CREATE TABLE T_PO_HDR
